@@ -41,8 +41,8 @@ function About() {
         <div>
           <h3>Clients</h3>
           <p>
-            I've had the pleasure of working with a few brands this past year.
-            Here are just a few:
+            He has had the pleasure of working with the following brands this
+            past year:
           </p>
           <div class="clients">
             <img src="images/altria.png" alt="Altria Group" />
