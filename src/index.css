@@ -75,6 +75,7 @@ select {
 
 :root {
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 body {
@@ -142,10 +143,18 @@ a > img {
 .learn {
   margin: 0 auto;
 }
-.icons a img {
+.icons img {
   padding-top: 1rem;
   height: 5rem;
   width: 5rem;
+}
+.fun img {
+  margin: auto;
+  height: 7rem;
+  width: 10rem;
+}
+.fun .family {
+  width: 7rem;
 }
 quote {
   margin-top: 5rem;

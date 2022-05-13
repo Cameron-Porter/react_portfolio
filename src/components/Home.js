@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 
 function Home() {
@@ -202,7 +203,14 @@ function Home() {
           </div>
           <div class="fun col-lg-4 col-md-12 col-sm-12  col-xs-12">
             <h2>Fun</h2>
-            <p class="icons">Family Time, Cycling, Crossfit, K-dramas</p>
+            <p class="icons">
+              <img class="family" src="images/family.png" alt="" />
+              <img
+                class="cycling"
+                src="https://cdn.dribbble.com/users/656298/screenshots/3668794/s8080-cyclists.gif"
+              />
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/db585e44324263.58171f4d57aff.gif" />
+            </p>
           </div>
         </div>
         <div class="quote">
