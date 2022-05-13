@@ -22,3 +22,13 @@ a:hover {
 a > img {
   max-width: 150px;
 }
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clients > img {
+  max-height: 10rem;
+  margin: 2rem;
+  justify-self: center;
+  align-self: center;
+}
