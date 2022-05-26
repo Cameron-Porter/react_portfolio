@@ -21,10 +21,10 @@ function Home() {
           </div>
         </div>
         <div class="line"></div>
-        <div class="columns d-flex flex-wrap">
-          <div class="tech col-lg-4 col-md-12  col-sm-12  col-xs-12">
+        <div class="align-items-center d-flex flex-column">
+          <div class="tech">
             <h2>Tech Stack</h2>
-            <p class="icons">
+            <p class="icons d-flex flex-row flex-wrap">
               <a
                 href="https://www.w3.org/html/"
                 target="_blank"
@@ -126,12 +126,9 @@ function Home() {
               </a>
             </p>
           </div>
-          <div class="learn col-lg-4 col-md-12  col-sm-12  col-xs-12">
-            <h2>
-              Learning &<br />
-              Practicing
-            </h2>
-            <p class="icons">
+          <div class="learn">
+            <h2>Learning & Practicing</h2>
+            <p class="icons d-flex flex-row flex-wrap">
               <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
                 {" "}
                 <img
@@ -201,9 +198,9 @@ function Home() {
               </a>
             </p>
           </div>
-          <div class="fun col-lg-4 col-md-12 col-sm-12  col-xs-12">
+          <div class="fun">
             <h2>Fun</h2>
-            <p class="icons">
+            <p class="icons d-flex flex-row flex-wrap">
               <img class="family" src="images/family.png" alt="" />
               <img
                 class="cycling"
