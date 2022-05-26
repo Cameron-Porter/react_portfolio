@@ -112,13 +112,19 @@ a > img {
   justify-self: center;
   align-self: center;
 }
-.nav-item:hover {
+.nav-link:hover {
   text-decoration: none;
   color: rgba(254, 208, 5);
   border-bottom: 2px solid rgba(254, 208, 5);
 }
 .nav-item {
   border: 2px solid transparent;
+}
+.nav-link.active {
+  border-bottom: 2px solid black;
+}
+.nav-link.active:hover {
+  border-bottom: 2px solid rgba(254, 208, 5);
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgba(254, 208, 5);
@@ -136,20 +142,28 @@ a > img {
 .quote {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  margin-top: 6rem;
 }
-.fun,
-.tech,
-.learn {
-  margin: 0 auto;
+
+.icons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .icons img {
   padding-top: 1rem;
   height: 5rem;
   width: 5rem;
 }
+
+.icons > img,
+.icons > a {
+  margin: 0 1rem;
+}
 .fun img {
-  margin: auto;
   height: 7rem;
   width: 10rem;
 }
@@ -172,4 +186,136 @@ h3 {
 }
 p {
   font-size: 1rem;
+}
+
+.about-sec-2 p,
+.about-sec-3 p {
+  margin-top: 2rem;
+}
+.about-sec-3 h3 {
+  margin-top: 3rem;
+}
+.clients {
+  justify-content: center;
+}
+.image {
+  height: 25rem;
+  width: 25rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******************************************
+Contact
+******************************************/
+
+form {
+  margin-top: 4rem;
+}
+
+form > input,
+form > textarea {
+  margin-bottom: 2rem;
+}
+
+form > input,
+form > textarea {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+form > input:focus,
+form > textarea:focus {
+  outline: 1px solid rgba(254, 208, 5);
+}
+.submit {
+  width: 8rem;
+  border-radius: 8px;
+  display: flex;
+  align-self: center;
+  padding: 2px 43.86px;
+}
+.submit:hover {
+  background-color: rgba(254, 208, 5);
+}
+/******************************************
+Resource card
+******************************************/
+
+.card {
+  width: 150px;
+  height: 200px;
+  border: none;
+  color: transparent;
+}
+.card-inner {
+  position: absolute;
+  display: flex;
+  top: 5px;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0.05);
+  height: inherit;
+  width: inherit;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+}
+.ball {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  border-radius: 50%;
+  background: radial-gradient(white, rgba(254, 208, 5));
+  animation: move-up 4s ease-in-out infinite alternate-reverse;
+}
+.ball:nth-child(1) {
+  top: -25px;
+  left: -25px;
+}
+.ball:nth-child(2) {
+  bottom: -25px;
+  right: -85px;
+  animation-name: move-down;
+}
+@keyframes move-up {
+  to {
+    transform: translateY(-10px);
+  }
+}
+@keyframes move-down {
+  to {
+    transform: translateY(10px);
+  }
+}
+.r-text,
+.r-list {
+  margin: auto;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.front {
+  transform: rotate(20deg);
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.back {
+  transform: rotate(-20deg);
+}
+
+/******************************************
+1st Project card
+******************************************/
+
+.rpg {
+  font-size: 15rem;
+  background: url(/public/images/rpg.webp);
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

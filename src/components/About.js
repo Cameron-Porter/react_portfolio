@@ -14,14 +14,14 @@ function About() {
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">About</h1>
-            <p>
+            <p class="about-primary-p">
               Cameron is a Node.js Software Engineer on a Loyalty based team. He
               creates the backend logic for loyalty promotions in order to keep
               customers returning time and time again.
             </p>
           </div>
         </div>
-        <div>
+        <div class="about-sec-2">
           <h2>Digging Deeper</h2>
           <p>
             A thirst for wisdom is never quenched. Cameron has continued to
@@ -38,7 +38,7 @@ function About() {
             relief.
           </p>
         </div>
-        <div>
+        <div class="about-sec-3">
           <h3>Clients</h3>
           <p>
             He has had the pleasure of working with the following brands this

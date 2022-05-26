@@ -5,83 +5,55 @@ function Posts() {
   return (
     <div className="home row">
       <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/original">
-          <img
-            class="img-fluid rounded mb-4 mb-lg-0"
-            src="images/face.jpg"
-            alt=""
-          />
-          <h3 class="font-weight-light">Intro to my Blog</h3>
+        <Link to="/blog/journey">
+          <div class="image">
+            <img
+              class="img-fluid rounded mb-4 mb-lg-0"
+              src="images/face.jpg"
+              alt=""
+            />
+          </div>
+
+          <h3 class="font-weight-light">My Journey</h3>
           <p>
-            Take a dive into the reason behind this blog. What was the catylist
-            behind its conception, the purpose, and future of this creation.
+            From Yeoman to Software Engineer, and how I got here. A general
+            overview.
           </p>
         </Link>
       </div>
       <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/cycling">
-          <img
-            class="img-fluid rounded mb-4 mb-lg-0"
-            src="images/face.jpg"
-            alt=""
-          />
-          <h3 class="font-weight-light">Glassmorphism</h3>
+        <Link to="/blog/resources">
+          <div class="image">
+            <div class="card">
+              <div class="ball"></div>
+              <div class="ball"></div>
+              <div class="card-inner back"></div>
+              <div class="card-inner"></div>
+              <div class="card-inner front">
+                <p class="r-text">So Many Options!</p>
+                <ul class="r-list">
+                  <li>School</li>
+                  <li>FreeCodeCamp</li>
+                  <li>YouTube</li>
+                  <li>Bootcamp</li>
+                  <li>etc</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <h3 class="font-weight-light">Resources</h3>
           <p>
-            The hot topic of glassmorphism. Making a component look like it is
-            glass with all the related bells and wistles.
+            The Who, What, Where of resources that helped me achieve my goal.
           </p>
         </Link>
       </div>
       <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/buttons">
-          <img
-            class="img-fluid rounded mb-4 mb-lg-0"
-            src="images/face.jpg"
-            alt=""
-          />
-          <h3 class="font-weight-light">Push Your Buttons?</h3>
-          <p>
-            Buttons are the liveblood of any good action. Here are some neat
-            effects you can use on your next project.
-          </p>
-        </Link>
-      </div>
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/original">
-          <img
-            class="img-fluid rounded mb-4 mb-lg-0"
-            src="images/face.jpg"
-            alt=""
-          />
-          <h3 class="font-weight-light">Intro to my Blog</h3>
-          <p>
-            Take a dive into the reason behind this blog. What was the catylist
-            behind its conception, the purpose, and future of this creation.
-          </p>
-        </Link>
-      </div>
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/cycling">
-          <img
-            class="img-fluid rounded mb-4 mb-lg-0"
-            src="images/face.jpg"
-            alt=""
-          />
-          <h3 class="font-weight-light">Glassmorphism</h3>
-          <p>
-            The hot topic of glassmorphism. Making a component look like it is
-            glass with all the related bells and wistles.
-          </p>
-        </Link>
-      </div>
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/buttons">
-          <img class="img-fluid rounded mb-4 " src="images/face.jpg" alt="" />
-          <h3 class="font-weight-light">Push Your Buttons?</h3>
-          <p>
-            Buttons are the liveblood of any good action. Here are some neat
-            effects you can use on your next project.
-          </p>
+        <Link to="/blog/FirstProject">
+          <div class="image">
+            <p class="rpg">RPG</p>
+          </div>
+          <h3 class="font-weight-light">First Project</h3>
+          <p>Where learning and hobbies collide for the sake of progress.</p>
         </Link>
       </div>
     </div>

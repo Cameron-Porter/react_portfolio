@@ -1,7 +1,9 @@
 /* eslint-disable default-case */
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
-import Cycling from "./Cycling";
+import Journey from "./posts/Journey";
+import Resources from "./posts/Resources";
+import FirstProject from "./posts/First_Project";
 
 function Post() {
   let { postSlug } = useParams();
@@ -11,30 +13,12 @@ function Post() {
   }, [postSlug]);
 
   switch (postSlug) {
-    case "original":
-      return (
-        <div className="home">
-          <div class="container">
-            <h1 className="mt-5">This is Post Title 1</h1>
-            <h6 className="mb-5">The post slug is, {postSlug}</h6>
-            <p>Org.</p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </div>
-      );
-    case "cycling":
-      return <Cycling />;
+    case "journey":
+      return <Journey />;
+    case "resources":
+      return <Resources />;
+    case "FirstProject":
+      return <FirstProject />;
   }
 }
 export default Post;

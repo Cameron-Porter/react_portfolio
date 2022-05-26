@@ -5,7 +5,8 @@ function Blog() {
   return (
     <div className="home">
       <div class="container">
-        <h1 className="text-center mt-5">Porter Pointers</h1>
+        <h1 className="text-center mt-5">D.A.D. Chats</h1>
+        <p class="dad text-center">(Dedicated & Devoted)</p>
         <Outlet />
       </div>
     </div>
