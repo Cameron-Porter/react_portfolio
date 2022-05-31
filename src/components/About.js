@@ -2,17 +2,17 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about mx-3">
       <div class="container">
         <div class="row align-items-center my-5">
-          <div class="col-lg-7 d-flex justify-content-center justify-content-sm-start">
+          <div class="col-lg-5 d-flex justify-content-center justify-content-lg-start my-5">
             <img
               className="img-fluid rounded-circle h-auto w-75"
               src="images/us.jpg"
               alt=""
             />
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 p-lg-5">
             <h1 class="font-weight-light">About</h1>
             <p class="about-primary-p">
               Cameron is a Node.js Software Engineer on a Loyalty based team. He
@@ -21,7 +21,8 @@ function About() {
             </p>
           </div>
         </div>
-        <div class="about-sec-2">
+        <div class="line my-5"></div>
+        <div class="about-sec-2 mt-5">
           <h2>Digging Deeper</h2>
           <p>
             A thirst for wisdom is never quenched. Cameron has continued to

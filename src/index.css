@@ -244,9 +244,10 @@ form > textarea:focus {
   display: flex;
   align-self: center;
   padding: 2px 43.86px;
+  background-color: rgba(254, 208, 5);
 }
 .submit:hover {
-  background-color: rgba(254, 208, 5);
+  background-color: rgba(254, 208, 5, 0.7);
 }
 /******************************************
 Resource card

@@ -47,7 +47,7 @@ function Contact() {
       );
   };
   return (
-    <div className="contact">
+    <div className="contact mx-3">
       <div class="container">
         <div class="text-center mt-5">
           <h1 class="font-weight-light">Contact</h1>
