@@ -145,6 +145,7 @@ a > img {
   justify-content: center;
   flex-direction: column;
   margin-top: 6rem;
+  text-align: center;
 }
 
 .icons {
