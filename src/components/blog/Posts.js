@@ -5,20 +5,26 @@ function Posts() {
   return (
     <div className="home row">
       <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/journey">
+        <Link to="/blog/Start">
           <div class="image">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="images/face.jpg"
+              src="images/swe.png"
               alt=""
             />
           </div>
+          <h3 class="font-weight-light">Where Do I Start?</h3>
+          <p>So many options, where do I start to learn?</p>
+        </Link>
+      </div>
 
-          <h3 class="font-weight-light">My Journey</h3>
-          <p>
-            From Yeoman to Software Engineer, and how I got here. A general
-            overview.
-          </p>
+      <div class="container col-md-5 col-xl-4">
+        <Link to="/blog/FirstProject">
+          <div class="image">
+            <p class="rpg">RPG</p>
+          </div>
+          <h3 class="font-weight-light">First Project</h3>
+          <p>Where learning and hobbies collide for the sake of progress.</p>
         </Link>
       </div>
       <div class="container col-md-5 col-xl-4">
@@ -47,13 +53,22 @@ function Posts() {
           </p>
         </Link>
       </div>
+
       <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/FirstProject">
+        <Link to="/blog/journey">
           <div class="image">
-            <p class="rpg">RPG</p>
+            <img
+              class="img-fluid rounded mb-4 mb-lg-0"
+              src="images/face.jpg"
+              alt=""
+            />
           </div>
-          <h3 class="font-weight-light">First Project</h3>
-          <p>Where learning and hobbies collide for the sake of progress.</p>
+
+          <h3 class="font-weight-light">My Journey</h3>
+          <p>
+            From Yeoman to Software Engineer, and how I got here. A general
+            overview.
+          </p>
         </Link>
       </div>
     </div>
