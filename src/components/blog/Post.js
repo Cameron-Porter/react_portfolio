@@ -4,6 +4,7 @@ import { useParams } from "react-router";
 import Journey from "./posts/Journey";
 import Resources from "./posts/Resources";
 import FirstProject from "./posts/First_Project";
+import Start from "./posts/Start";
 
 function Post() {
   let { postSlug } = useParams();
@@ -19,6 +20,8 @@ function Post() {
       return <Resources />;
     case "FirstProject":
       return <FirstProject />;
+    case "Start":
+      return <Start />;
   }
 }
 export default Post;

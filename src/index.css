@@ -163,6 +163,12 @@ a > img {
 .icons > a {
   margin: 0 1rem;
 }
+
+.icons > a > img:hover {
+  filter: drop-shadow(0 0 7px rgba(254, 208, 5));
+  transform: scale(1.1);
+}
+
 .fun img {
   height: 7rem;
   width: 10rem;
@@ -271,25 +277,27 @@ Resource card
   position: relative;
   border-radius: 50%;
   background: radial-gradient(white, rgba(254, 208, 5));
-  animation: move-up 4s ease-in-out infinite alternate-reverse;
+  animation: move-up 6s ease-in-out infinite alternate;
 }
 .ball:nth-child(1) {
   top: -25px;
   left: -25px;
 }
 .ball:nth-child(2) {
-  bottom: -25px;
-  right: -85px;
+  bottom: -35px;
+  right: -95px;
   animation-name: move-down;
 }
 @keyframes move-up {
   to {
-    transform: translateY(-10px);
+    transform: rotate(360deg);
+    transform-origin: 11rem 10rem;
   }
 }
 @keyframes move-down {
   to {
-    transform: translateY(10px);
+    transform: rotate(360deg);
+    transform-origin: -8rem -1rem;
   }
 }
 .r-text,
@@ -318,4 +326,8 @@ Resource card
   background-size: contain;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.image:hover {
+  transform: scale(1.1);
 }
