@@ -13,7 +13,7 @@ function Home() {
               alt=""
             />
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 text-center text-md-start">
             <h1 class="font-weight-light">
               Software Engineer | Forever Learner
             </h1>
