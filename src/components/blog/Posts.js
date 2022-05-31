@@ -7,11 +7,7 @@ function Posts() {
       <div class="container col-md-5 col-xl-4">
         <Link to="/blog/Start">
           <div class="image">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="images/swe.png"
-              alt=""
-            />
+            <img class="img-fluid rounded mb-4" src="images/swe.png" alt="" />
           </div>
           <h3 class="font-weight-light">Where Do I Start?</h3>
           <p>So many options, where do I start to learn?</p>
