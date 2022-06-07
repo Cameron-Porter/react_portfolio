@@ -17,6 +17,7 @@ import useGaTracker from "./components/GATracking";
 
 useGaTracker();
 
+ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
@@ -33,5 +34,4 @@ useGaTracker();
 
   document.getElementById("root")
 );
-
 serviceWorker.unregister();
