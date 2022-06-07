@@ -11,8 +11,11 @@ import {
   Contact,
   Blog,
   Posts,
-  Post,
+  Post
 } from "./components";
+import useGaTracker from "./components/GATracking";
+
+useGaTracker();
 
   <Router>
     <Navigation />
