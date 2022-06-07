@@ -13,11 +13,7 @@ import {
   Posts,
   Post,
 } from "./components";
-import ReactGA from "react-ga";
-const TRACKING_ID = "G-3NL26NFMGX"; // TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
 
-ReactGA.pageview(window.location.pathname + window.location.search);
 ReactDOM.render(
   <Router>
     <Navigation />
