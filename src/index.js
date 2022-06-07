@@ -14,7 +14,6 @@ import {
   Post,
 } from "./components";
 
-ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
