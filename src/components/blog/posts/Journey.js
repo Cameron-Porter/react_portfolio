@@ -35,7 +35,7 @@ function Journey() {
         </p>
         <p className="mb-3">
           Freecodecamp, edX, YouTube, LinkedIn Learning, etc were all extremely
-          helpful in the beginning stages of my growth. Come AUG 2020 I had gone
+          helpful in the beginning stages of my growth. Come AUG 2021 I had gone
           through multiple interviews, made it to many last rounds, and yet
           still came up short. I eventually looked at related positions and got
           a job as a Software Support Specialist for a local company.
