@@ -47,6 +47,7 @@ function About() {
           </p>
           <div class="clients">
             <img src="images/altria.png" alt="Altria Group" />
+            <img src="images/carhartt.png" alt="Carhartt" />
             <img src="images/dunkin.png" alt="Dunkin Donuts" />
             <img src="images/cope.jpg" alt="Copenhagen" />
             <img src="images/marlboro.png" alt="Marlboro" />
