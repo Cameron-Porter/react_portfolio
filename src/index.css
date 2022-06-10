@@ -335,3 +335,8 @@ Resource card
 .image:hover {
   transform: scale(1.1);
 }
+
+.links a {
+  text-decoration: underline;
+  color: blue;
+}

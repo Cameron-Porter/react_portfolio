@@ -9,7 +9,7 @@ function Start() {
   }, [postSlug]);
 
   return (
-    <div className="home">
+    <div className="home links">
       <div class="container">
         <h1 className="mt-5">Where Do I Start</h1>
         <h6 className="mb-5">So many options, where do I start to learn?</h6>

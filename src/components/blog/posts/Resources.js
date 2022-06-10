@@ -9,7 +9,7 @@ function Resources() {
   }, [postSlug]);
 
   return (
-    <div className="home">
+    <div className="home links">
       <div class="container">
         <h1 className="mt-5">Resources</h1>
         <h6 className="mb-5">

@@ -9,7 +9,7 @@ function JuniorEngineer() {
   }, [postSlug]);
 
   return (
-    <div className="home">
+    <div className="home links">
       <div class="container">
         <h1 className="mt-5">Junior Engineering</h1>
         <h6 className="mb-5">Some Tips and Lessons Learned.</h6>
