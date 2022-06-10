@@ -5,7 +5,7 @@ function Posts() {
   return (
     <div className="home row">
       <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/Start">
+        <Link to="/blog/JuniorEngineer">
           <div class="image">
             <img
               class="img-fluid rounded mb-4"
