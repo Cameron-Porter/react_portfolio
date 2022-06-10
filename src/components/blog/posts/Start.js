@@ -22,7 +22,7 @@ function Start() {
         </p>
         <p className="mb-3">
           With that said, let me help guide you in a decent direction. As
-          mentioned in my <a href="./Resources.js">Resources post</a>,
+          mentioned in my <a href="/blog/resources">Resources post</a>,
           FreeCodeCamp.org is a great site to get started with. It is a non
           profit organization whose sole purpose is to train and develop new
           devs.
