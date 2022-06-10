@@ -7,6 +7,20 @@ function Posts() {
       <div class="container col-md-5 col-xl-4">
         <Link to="/blog/Start">
           <div class="image">
+            <img
+              class="img-fluid rounded mb-4"
+              src="images/juniordev.png"
+              alt=""
+            />
+          </div>
+          <h3 class="font-weight-light">Junior Engineering</h3>
+          <p>Some Tips and Lessons Learned.</p>
+        </Link>
+      </div>
+
+      <div class="container col-md-5 col-xl-4">
+        <Link to="/blog/Start">
+          <div class="image">
             <img class="img-fluid rounded mb-4" src="images/swe.png" alt="" />
           </div>
           <h3 class="font-weight-light">Where Do I Start?</h3>
