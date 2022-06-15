@@ -1,86 +1,82 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Paperstacks from "../Paperstack";
 
 function Posts() {
   return (
-    <div className="home row">
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/JuniorEngineer">
-          <div class="image">
+    <div class="home row justify-content-center">
+      <a
+        href="/blog/JuniorEngineer"
+        class="col-12 col-md-5 col-xl-3 m-3 mylink"
+      >
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="images/juniordev.png"
+            alt="Card  cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Junior Engineering</h5>
+            <p class="card-text">Some Tips and Lessons Learned...</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 6-10-2022</small>
+          </div>
+        </div>
+      </a>
+      <a href="/blog/Start" class="col-12 col-md-5 col-xl-3 m-3 mylink">
+        <div class="card">
+          <img class="card-img-top" src="images/swe.png" alt="Card  cap" />
+          <div class="card-body">
+            <h5 class="card-title">Where Do I Start?</h5>
+            <p class="card-text">So many options, where do I start...</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 6-8-2022</small>
+          </div>
+        </div>
+      </a>
+      <a href="/blog/FirstProject" class="col-12 col-md-5 col-xl-3 m-3">
+        <div class="card">
+          <p class="rpg card-image-top">RPG</p>
+          <div class="card-body">
+            <h5 class="card-title">First Project</h5>
+            <p class="card-text">Where learning and hobbies collide...</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 6-6-2022</small>
+          </div>
+        </div>
+      </a>
+      <a href="/blog/FirstProject" class="col-12 col-md-5 col-xl-3 m-3">
+        <div class="card">
+          <div class="card-image-top mb-4">
             <img
-              class="img-fluid rounded mb-4"
+              class="card-img-top"
               src="images/juniordev.png"
-              alt=""
+              alt="Card  cap"
             />
           </div>
-          <h3 class="font-weight-light">Junior Engineering</h3>
-          <p>Some Tips and Lessons Learned.</p>
-        </Link>
-      </div>
-
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/Start">
-          <div class="image">
-            <img class="img-fluid rounded mb-4" src="images/swe.png" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Resources</h5>
+            <p class="card-text">Who, What, Where of Resources...</p>
           </div>
-          <h3 class="font-weight-light">Where Do I Start?</h3>
-          <p>So many options, where do I start to learn?</p>
-        </Link>
-      </div>
-
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/FirstProject">
-          <div class="image">
-            <p class="rpg">RPG</p>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 6-5-2022</small>
           </div>
-          <h3 class="font-weight-light">First Project</h3>
-          <p>Where learning and hobbies collide for the sake of progress.</p>
-        </Link>
-      </div>
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/resources">
-          <div class="image">
-            <div class="card">
-              <div class="ball"></div>
-              <div class="ball"></div>
-              <div class="card-inner back"></div>
-              <div class="card-inner"></div>
-              <div class="card-inner front">
-                <p class="r-text">So Many Options!</p>
-                <ul class="r-list">
-                  <li>School</li>
-                  <li>FreeCodeCamp</li>
-                  <li>YouTube</li>
-                  <li>Bootcamp</li>
-                  <li>etc</li>
-                </ul>
-              </div>
-            </div>
+        </div>
+      </a>
+      <a href="/blog/journey" class="col-12 col-md-5 col-xl-3 m-3">
+        <div class="card">
+          <img class="card-img-top" src="images/face.jpg" alt="Card  cap" />
+          <div class="card-body">
+            <h5 class="card-title">My Journey</h5>
+            <p class="card-text">USCG Yeoman to Software Engineer...</p>
           </div>
-          <h3 class="font-weight-light">Resources</h3>
-          <p>
-            The Who, What, Where of resources that helped me achieve my goal.
-          </p>
-        </Link>
-      </div>
-
-      <div class="container col-md-5 col-xl-4">
-        <Link to="/blog/journey">
-          <div class="image">
-            <img
-              class="img-fluid rounded mb-4 mb-lg-0"
-              src="images/face.jpg"
-              alt=""
-            />
+          <div class="card-footer">
+            <small class="text-muted">Last updated 6-4-2022</small>
           </div>
-
-          <h3 class="font-weight-light">My Journey</h3>
-          <p>
-            From Yeoman to Software Engineer, and how I got here. A general
-            overview.
-          </p>
-        </Link>
-      </div>
+        </div>
+      </a>
     </div>
   );
 }

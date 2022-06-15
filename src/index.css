@@ -254,13 +254,15 @@ form > textarea:focus {
 Resource card
 ******************************************/
 
-.card {
-  width: 150px;
-  height: 200px;
+.cards {
+  width: 125px;
+  height: 175px;
   border: none;
   color: transparent;
+  display: flex;
+  justify-content: center;
 }
-.card-inner {
+.cards-inner {
   position: absolute;
   display: flex;
   top: 5px;
@@ -276,8 +278,8 @@ Resource card
   border-left: 1px solid rgba(255, 255, 255, 0.7);
 }
 .ball {
-  height: 100px;
-  width: 100px;
+  height: 20px;
+  width: 20px;
   position: relative;
   border-radius: 50%;
   background: radial-gradient(white, rgba(254, 208, 5));
@@ -288,8 +290,8 @@ Resource card
   left: -25px;
 }
 .ball:nth-child(2) {
-  bottom: -35px;
-  right: -95px;
+  bottom: -135px;
+  right: -195px;
   animation-name: move-down;
 }
 @keyframes move-up {
@@ -308,6 +310,7 @@ Resource card
 .r-list {
   margin: auto;
   color: rgba(0, 0, 0, 0.6);
+  font-size: 0.7rem;
 }
 
 .front {
@@ -325,11 +328,12 @@ Resource card
 ******************************************/
 
 .rpg {
-  font-size: 15rem;
+  font-size: 8rem;
   background: url(/public/images/rpg.webp);
   background-size: contain;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .image:hover {
@@ -339,4 +343,22 @@ Resource card
 .links a {
   text-decoration: underline;
   color: blue;
+}
+.card {
+  border: none;
+  transition: ease 0.5s;
+}
+.card:hover,
+.card:focus {
+  transform: scale(1.05);
+}
+.card-img-top,
+.rpg {
+  height: 15rem;
+  width: auto;
+  overflow: hidden;
+  object-fit: contain;
+}
+.cards {
+  padding-left: 2rem;
 }
