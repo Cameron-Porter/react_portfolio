@@ -1,5 +1,4 @@
 import React from "react";
-import Paperstacks from "../Paperstack";
 
 function Posts() {
   return (
