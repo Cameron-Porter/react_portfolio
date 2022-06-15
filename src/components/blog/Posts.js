@@ -48,13 +48,11 @@ function Posts() {
       </a>
       <a href="/blog/FirstProject" class="col-12 col-md-5 col-xl-3 m-3">
         <div class="card">
-          <div class="card-image-top mb-4">
-            <img
-              class="card-img-top"
-              src="images/juniordev.png"
-              alt="Card  cap"
-            />
-          </div>
+          <img
+            class="card-img-top"
+            src="images/juniordev.png"
+            alt="Card  cap"
+          />
           <div class="card-body">
             <h5 class="card-title">Resources</h5>
             <p class="card-text">Who, What, Where of Resources...</p>
