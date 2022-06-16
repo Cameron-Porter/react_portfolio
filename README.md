@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# My Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can find the deployed site at [cporter.netlify.app](https://cporter.netlify.app). This has been a joy to create and I look forward to interating over it to further develop my skills.
 
-## Available Scripts
+## Journey
 
-In the project directory, you can run:
+When first learning to code, I completed a portfolio project for the [FreeCodeCamp](https://freecodecamp.org) Responsive Web Design certification. It wasn't anything special, but it was mine and I liked it. It also passed all the tests that were required in order to complete that part of the practical assessment. My [first portfolio](https://codepen.io/agohige_tech/pen/LYYGvgG) now makes me cringe a bit, but it is a great reminder of how far I've come since starting my coding journey.
 
-### `npm start`
+### Goals
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+At present, my goal is to help as many veterans transition into tech as possible. The jobless and homeless stats on veterans is atrocious, and anything we can actively do to help bring those numbers down is needed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To do that I have partnered with [#VetsWhoCode](https://vetswhocode.io) to first learn their program via going through a front-end bootcamp then to give back and mentor veterans. This organization is a 501c(3) non-profit that is ran by veterans for veterans. With their help and support, I will see this goal to fruition.
 
-### `npm test`
+### Technical Goals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+From a technical standpoint, I have a goal to become the 'go-to' Javascript developer amoung my peers (whomever they may be). Once I have established a solid foundation in Javascript, I believe picking up any library/framework will come with more ease. The general knowledge gained from increasing depth of a language will help tremendously across the board as a SWE.
 
-### `npm run build`
+### Blog
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This site does have a blog that you can check out. It has some tid bits of info that I have learned from and hope will guide others. I intend to use this space to document things learned so I can reference them again in the future.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Like what you see or want to know more, please take a moment to visit the site and reach out via my Contact page or social media.
