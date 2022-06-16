@@ -46,6 +46,7 @@ function About() {
             past year:
           </p>
           <div class="clients">
+            <img src="images/vwc.png" alt="#VetsWhoCode" />
             <img src="images/altria.png" alt="Altria Group" />
             <img src="images/carhartt.png" alt="Carhartt" />
             <img src="images/dunkin.png" alt="Dunkin Donuts" />
