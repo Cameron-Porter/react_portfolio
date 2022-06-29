@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react'
 
 function Paperstacks() {
   return (
-    <div class="cards">
-      <div class="cards-inner back"></div>
-      <div class="cards-inner"></div>
-      <div class="cards-inner front">
-        <p class="r-text">So Many Options!</p>
-        <ul class="r-list">
+    <div className="cards">
+      <div className="cards-inner back"></div>
+      <div className="cards-inner"></div>
+      <div className="cards-inner front">
+        <p className="r-text">So Many Options!</p>
+        <ul className="r-list">
           <li>School</li>
           <li>FreeCodeCamp</li>
           <li>YouTube</li>
@@ -16,6 +16,6 @@ function Paperstacks() {
         </ul>
       </div>
     </div>
-  );
+  )
 }
-export default Paperstacks;
+export default Paperstacks
