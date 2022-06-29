@@ -1,34 +1,26 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import {
-  Navigation,
-  Footer,
-  Home,
-  About,
-  Contact,
-  Blog,
-  Posts,
-  Post,
-} from "./components";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { AnalyticsProvider } from 'use-analytics'
+import { Analytics } from 'analytics'
+import App from './App'
+import googleAnalytics from '@analytics/google-analytics'
+
+const analytics = Analytics({
+  app: 'portfolio',
+  plugins: [
+    googleAnalytics({
+      trackingId: 'UA-230947151-1',
+    }),
+  ],
+})
 
 ReactDOM.render(
-  <Router>
-    <Navigation />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
-      </Route>
-    </Routes>
-    <Footer />
-  </Router>,
-
-  document.getElementById("root")
-);
-serviceWorker.unregister();
+  <AnalyticsProvider instance={analytics}>
+    <Router>
+      <App />
+    </Router>
+  </AnalyticsProvider>,
+  document.getElementById('root')
+)
