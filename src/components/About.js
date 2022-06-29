@@ -37,6 +37,8 @@ function About() {
           <p>He has had the pleasure of working with the following brands this past year:</p>
           <div className="clients">
             <img src="images/vwc.png" alt="#VetsWhoCode" />
+            <img src="images/sony.png" alt="Sony" />
+            <img src="images/valvoline.png" alt="Valvoline" />
             <img src="images/altria.png" alt="Altria Group" />
             <img src="images/carhartt.png" alt="Carhartt" />
             <img src="images/dunkin.png" alt="Dunkin Donuts" />
